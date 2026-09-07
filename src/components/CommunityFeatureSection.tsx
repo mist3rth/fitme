@@ -143,7 +143,7 @@ export const CommunityFeatureSection: React.FC<CommunityFeatureSectionProps> = (
               </p>
 
               {/* Bottom Row: Coach Profile + Join Now Button */}
-              <div className="flex items-center justify-between gap-4 pt-2 border-t border-white/10">
+              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 sm:gap-4 pt-4 sm:pt-2 border-t border-white/10">
                 
                 {/* Coach Profile */}
                 <div className="flex items-center gap-3">
@@ -170,7 +170,7 @@ export const CommunityFeatureSection: React.FC<CommunityFeatureSectionProps> = (
                   id="community-join-cta-btn"
                   onClick={onJoinClick}
                   text="Rejoindre"
-                  className="bg-white hover:bg-neutral-100 active:scale-95 text-neutral-950 font-semibold px-6 sm:px-7 py-3 rounded-xl text-sm transition-all duration-200 shadow-xl cursor-pointer shrink-0 inline-flex items-center justify-center overflow-hidden"
+                  className="w-full sm:w-auto bg-white hover:bg-neutral-100 active:scale-95 text-neutral-950 font-semibold px-6 sm:px-7 py-3 rounded-xl text-sm transition-all duration-200 shadow-xl cursor-pointer shrink-0 inline-flex items-center justify-center overflow-hidden"
                 />
 
               </div>
