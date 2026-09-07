@@ -1,0 +1,6 @@
+{
+  "name": "FiTME - Coaching Sportif",
+  "description": "Plateforme de coaching sportif et d'accompagnement de haute performance pour athlètes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
