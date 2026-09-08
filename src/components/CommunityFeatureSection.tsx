@@ -32,11 +32,6 @@ const TAB_DATA: Record<string, TabContent> = {
     description:
       "Posez vos questions et obtenez des retours précis de votre coach à tout moment.",
   },
-  'Communauté': {
-    title: "Rejoignez une communauté d'athlètes engagés",
-    description:
-      "Échangez, apprenez et progressez ensemble aux côtés de sportifs passionnés.",
-  },
 };
 
 export const CommunityFeatureSection: React.FC<CommunityFeatureSectionProps> = ({
@@ -50,7 +45,6 @@ export const CommunityFeatureSection: React.FC<CommunityFeatureSectionProps> = (
     { id: 'coaches', label: 'Coachs' },
     { id: 'nutrition', label: 'Nutrition' },
     { id: 'support', label: 'Support' },
-    { id: 'community', label: 'Communauté' },
   ];
 
   const currentContent = TAB_DATA[activeCategory] || TAB_DATA['Programmes'];
