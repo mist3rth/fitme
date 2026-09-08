@@ -71,7 +71,7 @@ export const CommunityFeatureSection: React.FC<CommunityFeatureSectionProps> = (
                     onClick={() => setActiveCategory(tag.label)}
                     className={`px-5 py-2.5 rounded-2xl text-sm sm:text-base font-medium transition-all duration-200 cursor-pointer ${
                       isSelected
-                        ? 'bg-[#F9DE7C] text-neutral-950 font-semibold shadow-sm'
+                        ? 'bg-[#F9DE7C] text-neutral-950 shadow-sm'
                         : 'bg-neutral-100 text-neutral-800 hover:bg-neutral-200/80'
                     }`}
                   >
