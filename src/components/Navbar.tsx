@@ -162,9 +162,10 @@ export const Navbar: React.FC<NavbarProps> = ({
                 >
                   {isActive && (
                     <motion.div
-                      layoutId="active-pill"
+                      initial={{ opacity: 0, scale: 0.95 }}
+                      animate={{ opacity: 1, scale: 1 }}
+                      transition={{ duration: 0.2 }}
                       className="absolute inset-0 bg-white rounded-lg shadow-sm -z-10"
-                      transition={{ type: 'spring', stiffness: 380, damping: 30 }}
                     />
                   )}
                   <span>{item.label}</span>
